@@ -1,0 +1,4 @@
+.place__description {
+  grid-area: text;
+  max-width: 484px;
+}

@@ -1,0 +1,16 @@
+.lead__figure {
+  margin: 0 auto;
+  padding: 64px 0 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__figure {
+    padding: 56px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__figure {
+    padding: 40px 0 0;
+  }
+}

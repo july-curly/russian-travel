@@ -1,0 +1,27 @@
+.lead__image{
+  max-width: 984px;
+  max-height: 615px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1268px) {
+  .lead__image {
+    max-width: calc(928px + (984 - 928) * ((100vw - 928px) / (1268 - 1024)));
+    /*max-width: 928px;
+    max-height: 580px;*/
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    max-width: calc(768px + (928 - 768) * ((100vw - 768px) / (1024 - 768)));
+    /*max-width: 768px;
+    max-height: 480px;*/
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    max-width: calc(320px + (768 - 320) * ((100vw - 320px) / (768 - 320)));
+  }
+}
